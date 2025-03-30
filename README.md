@@ -1,0 +1,1 @@
+# fatedier.vim
