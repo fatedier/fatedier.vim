@@ -74,3 +74,14 @@ highlight LineNr cterm=NONE ctermfg=DarkYellow ctermbg=NONE
 
 " Search results: Often highlighted with a color like Yellow/Brown background
 highlight Search ctermfg=Black ctermbg=DarkYellow
+
+highlight PmenuSel ctermbg=Yellow ctermfg=black
+highlight Pmenu ctermfg=Black ctermbg=Magenta
+
+highlight Folded cterm=Bold ctermfg=Blue ctermbg=White
+if &diff
+    highlight DiffAdd cterm=bold ctermfg=Red ctermbg=Black
+    highlight DiffDelete cterm=bold ctermfg=Black ctermbg=Black
+    highlight DiffChange cterm=bold ctermfg=Green ctermbg=Black
+    highlight DiffText cterm=bold ctermfg=Yellow ctermbg=Black
+endif
